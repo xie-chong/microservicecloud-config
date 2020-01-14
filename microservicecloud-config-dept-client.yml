@@ -42,8 +42,8 @@ eureka:
 info:
   app.name: atguigu-microservicecloud
   company.name: www.atguigu.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
+  build.artifactId: '@project.artifactId@'
+  build.version: '@project.version@'
 
 ---
 server:
@@ -85,5 +85,5 @@ eureka:
 info:
   app.name: atguigu-microservicecloud
   company.name: www.atguigu.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
+  build.artifactId: '@project.artifactId@'
+  build.version: '@project.version@'
